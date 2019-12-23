@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>GPRS GET Input</title>
+</head>
+<body>
+	<p id="main"></p>
+
+	<script type="text/javascript">
+		if(localStorage.getItem("onName")){
+			document.getElementById("main").innerHTML = localStorage.getItem("onName");
+		}
+		//else{
+		//	var items = ["0001", "0010", "0100", "1000"];
+		//	var item = items[Math.floor(Math.random()*items.length)];
+		//	document.getElementById("main").innerHTML = item;
+		//}
+	</script>
+</body>
+</html>
